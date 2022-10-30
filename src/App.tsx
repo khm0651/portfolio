@@ -7,7 +7,7 @@ const App: React.FC = () =>
 <>
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
-      <Route path='/' element={<MainView/>}/>
+      <Route path='/' element={<MainView />}/>
     </Routes>
   </BrowserRouter>
 </>
