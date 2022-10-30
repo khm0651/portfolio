@@ -1,15 +1,15 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import MainView from '@/view/MainView';
+import MainView from './view/MainView';
 
 const App: React.FC = () => 
 <>
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter>
     <Routes>
       <Route path='/' element={<MainView/>}/>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 </>
 
 export default App;
