@@ -5,7 +5,7 @@ import MainView from '@/view/MainView';
 
 const App: React.FC = () => 
 <>
-  <BrowserRouter>
+  <BrowserRouter basename='/public'>
     <Routes>
       <Route path='/' element={<MainView/>}/>
     </Routes>

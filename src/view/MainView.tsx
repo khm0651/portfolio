@@ -6,7 +6,7 @@ const MainView = () => {
                 asdfasdfasfdf
             </div>
             <div>
-                hadsfsadf
+                hadsfsadfasdfasdf
             </div>
         </div> 
     )
